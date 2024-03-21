@@ -23,10 +23,10 @@
 </head>
 
 <body class="m-0 font-sans text-base antialiased font-normal leading-default bg-gray-50 text-slate-500">
+  @include('layout.local.nav')
   @include('layout.partial.header')
 
   @include('layout.partial.footer')
-
   @include('layout.partial.script')
 </body>
 
